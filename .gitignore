@@ -1,0 +1,13 @@
+# Pliki pochodzace z zasobow gry (GIANTS Software) - tworzy je tools/build.py z lokalnej instalacji gry
+objects/ibcDiesel/ibcDiesel.i3d
+objects/ibcDiesel/ibcDiesel.i3d.shapes
+objects/ibcDiesel/ibcDiesel_diffuse.dds
+objects/ibcDiesel/store_ibcDiesel.dds
+objects/paints/paintDecal.i3d.shapes
+objects/parkingLines/paintDecal.i3d.shapes
+
+# wynik budowania
+dist/
+*.zip
+__pycache__/
+*.pyc

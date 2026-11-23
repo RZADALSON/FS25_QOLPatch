@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!--
+    MegaPatch: uniwersalne okno (finansowanie, fabryki, sen, potwierdzenia).
+    Uklad "split": zdjecie + szczegoly po lewej, suwaki + podsumowanie po prawej.
+    Uklad "wide": suwak u gory, tekst na cala szerokosc.
+-->
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement profile="newLayer" />
+    <Bitmap profile="dialogFullscreenBg" id="dialogBg" />
+
+    <GuiElement profile="mpDialog" id="dialogElement">
+        <ThreePartBitmap profile="fs25_dialogBgTop" />
+        <ThreePartBitmap profile="fs25_dialogBgMiddle" />
+        <ThreePartBitmap profile="fs25_dialogBgBottom" />
+
+        <Text profile="mpDialogTitle" text="" id="dialogTitleElement"/>
+        <ThreePartBitmap profile="mpDialogTitleLine" />
+
+        <!-- uklad split -->
+        <GuiElement profile="mpDialogPanel" id="splitLayout">
+            <Bitmap profile="mpDialogImageBg" id="imageBg"/>
+            <Bitmap profile="mpDialogImage" id="imageElement"/>
+            <Text profile="mpDialogDetails" text="" id="detailsText"/>
+
+            <Text profile="mpDialogSliderLabel" position="440px -10px" text="" id="sliderLabel1"/>
+            <OptionSlider profile="mpDialogSlider" position="460px -50px" id="slider1" onClick="onSlider1Changed"/>
+            <Text profile="mpDialogSliderLabel" position="440px -120px" text="" id="sliderLabel2"/>
+            <OptionSlider profile="mpDialogSlider" position="460px -160px" id="slider2" onClick="onSlider2Changed"/>
+
+            <Text profile="mpDialogSummary" text="" id="summaryText"/>
+        </GuiElement>
+
+        <!-- uklad wide -->
+        <GuiElement profile="mpDialogPanel" id="wideLayout">
+            <Text profile="mpDialogSliderLabelWide" text="" id="wideSliderLabel"/>
+            <OptionSlider profile="mpDialogSliderWide" id="wideSlider" onClick="onWideSliderChanged"/>
+            <Text profile="mpDialogWideText" text="" id="dialogTextElement"/>
+            <Text profile="mpDialogWideText" position="50px -10px" text="" id="wideTextFull"/>
+        </GuiElement>
+
+        <BoxLayout profile="fs25_dialogButtonBox" id="buttonsPC">
+            <Button profile="buttonOK" text="$l10n_megaPatch_finance_sign" onClick="onClickOk" id="yesButton" />
+            <Bitmap profile="fs25_dialogButtonBoxSeparator" id="sep1" />
+            <Button profile="buttonActivate" text="" onClick="onClickTerm" id="termButton" />
+            <Bitmap profile="fs25_dialogButtonBoxSeparator" id="sep2" />
+            <Button profile="buttonCancel" text="" onClick="onClickDown" id="downButton" />
+            <Bitmap profile="fs25_dialogButtonBoxSeparator" id="sep3" />
+            <Button profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="backButton" />
+        </BoxLayout>
+    </GuiElement>
+
+    <GUIProfiles>
+        <Profile name="mpDialog" extends="fs25_dialogBg">
+            <size value="1240px 780px"/>
+        </Profile>
+
+        <Profile name="mpDialogTitle" extends="fs25_textDefault" with="anchorTopCenter">
+            <size value="1140px 40px"/>
+            <position value="0px -36px"/>
+            <textSize value="26px"/>
+            <textBold value="true"/>
+            <textUpperCase value="true"/>
+            <textAlignment value="center"/>
+            <textMaxNumLines value="1"/>
+            <textLayoutMode value="resize"/>
+        </Profile>
+
+        <Profile name="mpDialogTitleLine" extends="fs25_lineSeparatorBottom" with="anchorTopCenter">
+            <size value="1140px 2px"/>
+            <position value="0px -86px"/>
+        </Profile>
+
+        <Profile name="mpDialogPanel" extends="emptyPanel" with="anchorTopLeft">
+            <size value="1240px 560px"/>
+            <position value="0px -110px"/>
+        </Profile>
+
+        <Profile name="mpDialogImageBg" extends="baseReference" with="anchorTopLeft">
+            <size value="340px 300px"/>
+            <position value="50px 0px"/>
+            <imageColor value="0 0 0 0.35"/>
+        </Profile>
+
+        <Profile name="mpDialogImage" extends="baseReference" with="anchorTopLeft">
+            <size value="300px 300px"/>
+            <position value="70px 0px"/>
+            <imageColor value="1 1 1 1"/>
+        </Profile>
+
+        <Profile name="mpDialogDetails" extends="fs25_textDefault" with="anchorTopLeft">
+            <size value="350px 230px"/>
+            <position value="50px -320px"/>
+            <textSize value="16px"/>
+            <textAlignment value="left"/>
+            <textVerticalAlignment value="top"/>
+            <textMaxNumLines value="12"/>
+            <textWrapWidth value="350px"/>
+            <textLineHeightScale value="1.3"/>
+        </Profile>
+
+        <Profile name="mpDialogSliderLabel" extends="fs25_textDefault" with="anchorTopLeft">
+            <size value="740px 30px"/>
+            <textSize value="18px"/>
+            <textBold value="true"/>
+            <textAlignment value="left"/>
+        </Profile>
+
+        <Profile name="mpDialogSlider" extends="fs25_optionSlider" with="anchorTopLeft">
+            <width value="700px"/>
+        </Profile>
+
+        <Profile name="mpDialogSummary" extends="fs25_textDefault" with="anchorTopLeft">
+            <size value="740px 320px"/>
+            <position value="440px -240px"/>
+            <textSize value="18px"/>
+            <textAlignment value="left"/>
+            <textVerticalAlignment value="top"/>
+            <textMaxNumLines value="14"/>
+            <textWrapWidth value="740px"/>
+            <textLineHeightScale value="1.35"/>
+        </Profile>
+
+        <Profile name="mpDialogSliderLabelWide" extends="fs25_textDefault" with="anchorTopCenter">
+            <size value="1100px 30px"/>
+            <position value="0px -10px"/>
+            <textSize value="18px"/>
+            <textBold value="true"/>
+            <textAlignment value="center"/>
+        </Profile>
+
+        <Profile name="mpDialogSliderWide" extends="fs25_optionSlider" with="anchorTopCenter">
+            <width value="700px"/>
+            <position value="0px -50px"/>
+        </Profile>
+
+        <Profile name="mpDialogWideText" extends="fs25_textDefault" with="anchorTopLeft">
+            <size value="1140px 470px"/>
+            <position value="50px -120px"/>
+            <textSize value="16px"/>
+            <textAlignment value="left"/>
+            <textVerticalAlignment value="top"/>
+            <textMaxNumLines value="24"/>
+            <textWrapWidth value="1140px"/>
+            <textLineHeightScale value="1.3"/>
+        </Profile>
+    </GUIProfiles>
+</GUI>

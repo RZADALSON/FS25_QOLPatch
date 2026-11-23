@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="paint_arrowRight_red" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Files>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+    <File fileId="3" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="10" filename="paint_arrowRight_red_t0_0.png"/>
+    <File fileId="11" filename="paint_arrowRight_red_t0_1.png"/>
+    <File fileId="12" filename="paint_arrowRight_red_t0_2.png"/>
+    <File fileId="13" filename="paint_arrowRight_red_t0_3.png"/>
+    <File fileId="14" filename="paint_arrowRight_red_t1_0.png"/>
+    <File fileId="15" filename="paint_arrowRight_red_t1_1.png"/>
+    <File fileId="16" filename="paint_arrowRight_red_t1_2.png"/>
+    <File fileId="17" filename="paint_arrowRight_red_t1_3.png"/>
+    <File fileId="18" filename="paint_arrowRight_red_t2_0.png"/>
+    <File fileId="19" filename="paint_arrowRight_red_t2_1.png"/>
+    <File fileId="20" filename="paint_arrowRight_red_t2_2.png"/>
+    <File fileId="21" filename="paint_arrowRight_red_t2_3.png"/>
+    <File fileId="22" filename="paint_arrowRight_red_t3_0.png"/>
+    <File fileId="23" filename="paint_arrowRight_red_t3_1.png"/>
+    <File fileId="24" filename="paint_arrowRight_red_t3_2.png"/>
+    <File fileId="25" filename="paint_arrowRight_red_t3_3.png"/>
+  </Files>
+  <Materials>
+    <Material name="paint_arrowRight_red_t0_0_mat" materialId="1" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="10"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t0_1_mat" materialId="2" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t0_2_mat" materialId="3" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="12"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t0_3_mat" materialId="4" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="13"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t1_0_mat" materialId="5" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="14"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t1_1_mat" materialId="6" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="15"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t1_2_mat" materialId="7" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="16"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t1_3_mat" materialId="8" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="17"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t2_0_mat" materialId="9" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="18"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t2_1_mat" materialId="10" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="19"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t2_2_mat" materialId="11" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="20"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t2_3_mat" materialId="12" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="21"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t3_0_mat" materialId="13" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="22"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t3_1_mat" materialId="14" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="23"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t3_2_mat" materialId="15" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="24"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="paint_arrowRight_red_t3_3_mat" materialId="16" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="25"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+  <Shapes externalShapesFile="paintDecal.i3d.shapes">
+  </Shapes>
+  <Scene>
+    <TransformGroup name="paint_arrowRight_red" nodeId="1">
+      <TransformGroup name="mpTiles_4x4" nodeId="2">
+        <Shape name="t_0_0" shapeId="1" translation="-1.125 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="1" clipDistance="150" nodeId="3"/>
+        <Shape name="t_0_1" shapeId="1" translation="-0.375 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="2" clipDistance="150" nodeId="4"/>
+        <Shape name="t_0_2" shapeId="1" translation="0.375 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="3" clipDistance="150" nodeId="5"/>
+        <Shape name="t_0_3" shapeId="1" translation="1.125 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="4" clipDistance="150" nodeId="6"/>
+        <Shape name="t_1_0" shapeId="1" translation="-1.125 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="5" clipDistance="150" nodeId="7"/>
+        <Shape name="t_1_1" shapeId="1" translation="-0.375 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="6" clipDistance="150" nodeId="8"/>
+        <Shape name="t_1_2" shapeId="1" translation="0.375 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="7" clipDistance="150" nodeId="9"/>
+        <Shape name="t_1_3" shapeId="1" translation="1.125 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="8" clipDistance="150" nodeId="10"/>
+        <Shape name="t_2_0" shapeId="1" translation="-1.125 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="9" clipDistance="150" nodeId="11"/>
+        <Shape name="t_2_1" shapeId="1" translation="-0.375 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="10" clipDistance="150" nodeId="12"/>
+        <Shape name="t_2_2" shapeId="1" translation="0.375 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="11" clipDistance="150" nodeId="13"/>
+        <Shape name="t_2_3" shapeId="1" translation="1.125 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="12" clipDistance="150" nodeId="14"/>
+        <Shape name="t_3_0" shapeId="1" translation="-1.125 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="13" clipDistance="150" nodeId="15"/>
+        <Shape name="t_3_1" shapeId="1" translation="-0.375 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="14" clipDistance="150" nodeId="16"/>
+        <Shape name="t_3_2" shapeId="1" translation="0.375 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="15" clipDistance="150" nodeId="17"/>
+        <Shape name="t_3_3" shapeId="1" translation="1.125 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="16" clipDistance="150" nodeId="18"/>
+      </TransformGroup>
+      <TransformGroup name="aiAreaStart" translation="-1.5 0 -1.5" nodeId="5000">
+        <TransformGroup name="aiAreaEnd" translation="3 0 3" nodeId="5001"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+</i3D>

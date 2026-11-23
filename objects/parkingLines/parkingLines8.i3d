@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="parkingLines8" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Files>
+    <File fileId="2" filename="$data/shared/default_normal.png"/>
+    <File fileId="3" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="10" filename="parkingLines8_t0_0.png"/>
+    <File fileId="11" filename="parkingLines8_t0_1.png"/>
+    <File fileId="12" filename="parkingLines8_t0_2.png"/>
+    <File fileId="13" filename="parkingLines8_t0_3.png"/>
+    <File fileId="14" filename="parkingLines8_t0_4.png"/>
+    <File fileId="15" filename="parkingLines8_t0_5.png"/>
+    <File fileId="16" filename="parkingLines8_t0_6.png"/>
+    <File fileId="17" filename="parkingLines8_t0_7.png"/>
+    <File fileId="18" filename="parkingLines8_t0_8.png"/>
+    <File fileId="19" filename="parkingLines8_t0_9.png"/>
+    <File fileId="20" filename="parkingLines8_t0_10.png"/>
+    <File fileId="21" filename="parkingLines8_t0_11.png"/>
+    <File fileId="22" filename="parkingLines8_t0_12.png"/>
+    <File fileId="23" filename="parkingLines8_t0_13.png"/>
+    <File fileId="24" filename="parkingLines8_t0_14.png"/>
+    <File fileId="25" filename="parkingLines8_t0_15.png"/>
+    <File fileId="26" filename="parkingLines8_t1_0.png"/>
+    <File fileId="27" filename="parkingLines8_t1_1.png"/>
+    <File fileId="28" filename="parkingLines8_t1_2.png"/>
+    <File fileId="29" filename="parkingLines8_t1_3.png"/>
+    <File fileId="30" filename="parkingLines8_t1_4.png"/>
+    <File fileId="31" filename="parkingLines8_t1_5.png"/>
+    <File fileId="32" filename="parkingLines8_t1_6.png"/>
+    <File fileId="33" filename="parkingLines8_t1_7.png"/>
+    <File fileId="34" filename="parkingLines8_t1_8.png"/>
+    <File fileId="35" filename="parkingLines8_t1_9.png"/>
+    <File fileId="36" filename="parkingLines8_t1_10.png"/>
+    <File fileId="37" filename="parkingLines8_t1_11.png"/>
+    <File fileId="38" filename="parkingLines8_t1_12.png"/>
+    <File fileId="39" filename="parkingLines8_t1_13.png"/>
+    <File fileId="40" filename="parkingLines8_t1_14.png"/>
+    <File fileId="41" filename="parkingLines8_t1_15.png"/>
+    <File fileId="42" filename="parkingLines8_t2_0.png"/>
+    <File fileId="43" filename="parkingLines8_t2_1.png"/>
+    <File fileId="44" filename="parkingLines8_t2_2.png"/>
+    <File fileId="45" filename="parkingLines8_t2_3.png"/>
+    <File fileId="46" filename="parkingLines8_t2_4.png"/>
+    <File fileId="47" filename="parkingLines8_t2_5.png"/>
+    <File fileId="48" filename="parkingLines8_t2_6.png"/>
+    <File fileId="49" filename="parkingLines8_t2_7.png"/>
+    <File fileId="50" filename="parkingLines8_t2_8.png"/>
+    <File fileId="51" filename="parkingLines8_t2_9.png"/>
+    <File fileId="52" filename="parkingLines8_t2_10.png"/>
+    <File fileId="53" filename="parkingLines8_t2_11.png"/>
+    <File fileId="54" filename="parkingLines8_t2_12.png"/>
+    <File fileId="55" filename="parkingLines8_t2_13.png"/>
+    <File fileId="56" filename="parkingLines8_t2_14.png"/>
+    <File fileId="57" filename="parkingLines8_t2_15.png"/>
+    <File fileId="58" filename="parkingLines8_t3_0.png"/>
+    <File fileId="59" filename="parkingLines8_t3_1.png"/>
+    <File fileId="60" filename="parkingLines8_t3_2.png"/>
+    <File fileId="61" filename="parkingLines8_t3_3.png"/>
+    <File fileId="62" filename="parkingLines8_t3_4.png"/>
+    <File fileId="63" filename="parkingLines8_t3_5.png"/>
+    <File fileId="64" filename="parkingLines8_t3_6.png"/>
+    <File fileId="65" filename="parkingLines8_t3_7.png"/>
+    <File fileId="66" filename="parkingLines8_t3_8.png"/>
+    <File fileId="67" filename="parkingLines8_t3_9.png"/>
+    <File fileId="68" filename="parkingLines8_t3_10.png"/>
+    <File fileId="69" filename="parkingLines8_t3_11.png"/>
+    <File fileId="70" filename="parkingLines8_t3_12.png"/>
+    <File fileId="71" filename="parkingLines8_t3_13.png"/>
+    <File fileId="72" filename="parkingLines8_t3_14.png"/>
+    <File fileId="73" filename="parkingLines8_t3_15.png"/>
+  </Files>
+  <Materials>
+    <Material name="parkingLines8_t0_0_mat" materialId="1" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="10"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_1_mat" materialId="2" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="11"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_2_mat" materialId="3" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="12"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_3_mat" materialId="4" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="13"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_4_mat" materialId="5" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="14"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_5_mat" materialId="6" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="15"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_6_mat" materialId="7" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="16"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_7_mat" materialId="8" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="17"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_8_mat" materialId="9" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="18"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_9_mat" materialId="10" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="19"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_10_mat" materialId="11" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="20"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_11_mat" materialId="12" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="21"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_12_mat" materialId="13" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="22"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_13_mat" materialId="14" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="23"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_14_mat" materialId="15" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="24"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t0_15_mat" materialId="16" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="25"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_0_mat" materialId="17" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="26"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_1_mat" materialId="18" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="27"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_2_mat" materialId="19" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="28"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_3_mat" materialId="20" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="29"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_4_mat" materialId="21" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="30"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_5_mat" materialId="22" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="31"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_6_mat" materialId="23" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="32"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_7_mat" materialId="24" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="33"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_8_mat" materialId="25" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="34"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_9_mat" materialId="26" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="35"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_10_mat" materialId="27" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="36"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_11_mat" materialId="28" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="37"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_12_mat" materialId="29" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="38"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_13_mat" materialId="30" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="39"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_14_mat" materialId="31" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="40"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t1_15_mat" materialId="32" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="41"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_0_mat" materialId="33" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="42"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_1_mat" materialId="34" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="43"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_2_mat" materialId="35" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="44"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_3_mat" materialId="36" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="45"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_4_mat" materialId="37" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="46"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_5_mat" materialId="38" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="47"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_6_mat" materialId="39" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="48"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_7_mat" materialId="40" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="49"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_8_mat" materialId="41" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="50"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_9_mat" materialId="42" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="51"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_10_mat" materialId="43" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="52"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_11_mat" materialId="44" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="53"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_12_mat" materialId="45" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="54"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_13_mat" materialId="46" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="55"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_14_mat" materialId="47" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="56"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t2_15_mat" materialId="48" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="57"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_0_mat" materialId="49" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="58"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_1_mat" materialId="50" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="59"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_2_mat" materialId="51" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="60"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_3_mat" materialId="52" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="61"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_4_mat" materialId="53" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="62"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_5_mat" materialId="54" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="63"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_6_mat" materialId="55" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="64"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_7_mat" materialId="56" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="65"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_8_mat" materialId="57" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="66"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_9_mat" materialId="58" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="67"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_10_mat" materialId="59" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="68"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_11_mat" materialId="60" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="69"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_12_mat" materialId="61" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="70"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_13_mat" materialId="62" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="71"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_14_mat" materialId="63" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="72"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="parkingLines8_t3_15_mat" materialId="64" specularColor="0.25 1 0" alphaBlending="true" customShaderId="3">
+      <Texture fileId="73"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+  <Shapes externalShapesFile="paintDecal.i3d.shapes">
+  </Shapes>
+  <Scene>
+    <TransformGroup name="parkingLines8" nodeId="1">
+      <TransformGroup name="mpTiles_16x4_fixed_1.25" nodeId="2">
+        <Shape name="t_0_0" shapeId="1" translation="-5.625 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="1" clipDistance="150" nodeId="3"/>
+        <Shape name="t_0_1" shapeId="1" translation="-4.875 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="2" clipDistance="150" nodeId="4"/>
+        <Shape name="t_0_2" shapeId="1" translation="-4.125 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="3" clipDistance="150" nodeId="5"/>
+        <Shape name="t_0_3" shapeId="1" translation="-3.375 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="4" clipDistance="150" nodeId="6"/>
+        <Shape name="t_0_4" shapeId="1" translation="-2.625 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="5" clipDistance="150" nodeId="7"/>
+        <Shape name="t_0_5" shapeId="1" translation="-1.875 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="6" clipDistance="150" nodeId="8"/>
+        <Shape name="t_0_6" shapeId="1" translation="-1.125 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="7" clipDistance="150" nodeId="9"/>
+        <Shape name="t_0_7" shapeId="1" translation="-0.375 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="8" clipDistance="150" nodeId="10"/>
+        <Shape name="t_0_8" shapeId="1" translation="0.375 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="9" clipDistance="150" nodeId="11"/>
+        <Shape name="t_0_9" shapeId="1" translation="1.125 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="10" clipDistance="150" nodeId="12"/>
+        <Shape name="t_0_10" shapeId="1" translation="1.875 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="11" clipDistance="150" nodeId="13"/>
+        <Shape name="t_0_11" shapeId="1" translation="2.625 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="12" clipDistance="150" nodeId="14"/>
+        <Shape name="t_0_12" shapeId="1" translation="3.375 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="13" clipDistance="150" nodeId="15"/>
+        <Shape name="t_0_13" shapeId="1" translation="4.125 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="14" clipDistance="150" nodeId="16"/>
+        <Shape name="t_0_14" shapeId="1" translation="4.875 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="15" clipDistance="150" nodeId="17"/>
+        <Shape name="t_0_15" shapeId="1" translation="5.625 0.03 -1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="16" clipDistance="150" nodeId="18"/>
+        <Shape name="t_1_0" shapeId="1" translation="-5.625 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="17" clipDistance="150" nodeId="19"/>
+        <Shape name="t_1_1" shapeId="1" translation="-4.875 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="18" clipDistance="150" nodeId="20"/>
+        <Shape name="t_1_2" shapeId="1" translation="-4.125 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="19" clipDistance="150" nodeId="21"/>
+        <Shape name="t_1_3" shapeId="1" translation="-3.375 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="20" clipDistance="150" nodeId="22"/>
+        <Shape name="t_1_4" shapeId="1" translation="-2.625 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="21" clipDistance="150" nodeId="23"/>
+        <Shape name="t_1_5" shapeId="1" translation="-1.875 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="22" clipDistance="150" nodeId="24"/>
+        <Shape name="t_1_6" shapeId="1" translation="-1.125 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="23" clipDistance="150" nodeId="25"/>
+        <Shape name="t_1_7" shapeId="1" translation="-0.375 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="24" clipDistance="150" nodeId="26"/>
+        <Shape name="t_1_8" shapeId="1" translation="0.375 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="25" clipDistance="150" nodeId="27"/>
+        <Shape name="t_1_9" shapeId="1" translation="1.125 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="26" clipDistance="150" nodeId="28"/>
+        <Shape name="t_1_10" shapeId="1" translation="1.875 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="27" clipDistance="150" nodeId="29"/>
+        <Shape name="t_1_11" shapeId="1" translation="2.625 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="28" clipDistance="150" nodeId="30"/>
+        <Shape name="t_1_12" shapeId="1" translation="3.375 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="29" clipDistance="150" nodeId="31"/>
+        <Shape name="t_1_13" shapeId="1" translation="4.125 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="30" clipDistance="150" nodeId="32"/>
+        <Shape name="t_1_14" shapeId="1" translation="4.875 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="31" clipDistance="150" nodeId="33"/>
+        <Shape name="t_1_15" shapeId="1" translation="5.625 0.03 -0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="32" clipDistance="150" nodeId="34"/>
+        <Shape name="t_2_0" shapeId="1" translation="-5.625 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="33" clipDistance="150" nodeId="35"/>
+        <Shape name="t_2_1" shapeId="1" translation="-4.875 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="34" clipDistance="150" nodeId="36"/>
+        <Shape name="t_2_2" shapeId="1" translation="-4.125 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="35" clipDistance="150" nodeId="37"/>
+        <Shape name="t_2_3" shapeId="1" translation="-3.375 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="36" clipDistance="150" nodeId="38"/>
+        <Shape name="t_2_4" shapeId="1" translation="-2.625 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="37" clipDistance="150" nodeId="39"/>
+        <Shape name="t_2_5" shapeId="1" translation="-1.875 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="38" clipDistance="150" nodeId="40"/>
+        <Shape name="t_2_6" shapeId="1" translation="-1.125 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="39" clipDistance="150" nodeId="41"/>
+        <Shape name="t_2_7" shapeId="1" translation="-0.375 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="40" clipDistance="150" nodeId="42"/>
+        <Shape name="t_2_8" shapeId="1" translation="0.375 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="41" clipDistance="150" nodeId="43"/>
+        <Shape name="t_2_9" shapeId="1" translation="1.125 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="42" clipDistance="150" nodeId="44"/>
+        <Shape name="t_2_10" shapeId="1" translation="1.875 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="43" clipDistance="150" nodeId="45"/>
+        <Shape name="t_2_11" shapeId="1" translation="2.625 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="44" clipDistance="150" nodeId="46"/>
+        <Shape name="t_2_12" shapeId="1" translation="3.375 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="45" clipDistance="150" nodeId="47"/>
+        <Shape name="t_2_13" shapeId="1" translation="4.125 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="46" clipDistance="150" nodeId="48"/>
+        <Shape name="t_2_14" shapeId="1" translation="4.875 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="47" clipDistance="150" nodeId="49"/>
+        <Shape name="t_2_15" shapeId="1" translation="5.625 0.03 0.375" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="48" clipDistance="150" nodeId="50"/>
+        <Shape name="t_3_0" shapeId="1" translation="-5.625 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="49" clipDistance="150" nodeId="51"/>
+        <Shape name="t_3_1" shapeId="1" translation="-4.875 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="50" clipDistance="150" nodeId="52"/>
+        <Shape name="t_3_2" shapeId="1" translation="-4.125 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="51" clipDistance="150" nodeId="53"/>
+        <Shape name="t_3_3" shapeId="1" translation="-3.375 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="52" clipDistance="150" nodeId="54"/>
+        <Shape name="t_3_4" shapeId="1" translation="-2.625 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="53" clipDistance="150" nodeId="55"/>
+        <Shape name="t_3_5" shapeId="1" translation="-1.875 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="54" clipDistance="150" nodeId="56"/>
+        <Shape name="t_3_6" shapeId="1" translation="-1.125 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="55" clipDistance="150" nodeId="57"/>
+        <Shape name="t_3_7" shapeId="1" translation="-0.375 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="56" clipDistance="150" nodeId="58"/>
+        <Shape name="t_3_8" shapeId="1" translation="0.375 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="57" clipDistance="150" nodeId="59"/>
+        <Shape name="t_3_9" shapeId="1" translation="1.125 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="58" clipDistance="150" nodeId="60"/>
+        <Shape name="t_3_10" shapeId="1" translation="1.875 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="59" clipDistance="150" nodeId="61"/>
+        <Shape name="t_3_11" shapeId="1" translation="2.625 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="60" clipDistance="150" nodeId="62"/>
+        <Shape name="t_3_12" shapeId="1" translation="3.375 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="61" clipDistance="150" nodeId="63"/>
+        <Shape name="t_3_13" shapeId="1" translation="4.125 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="62" clipDistance="150" nodeId="64"/>
+        <Shape name="t_3_14" shapeId="1" translation="4.875 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="63" clipDistance="150" nodeId="65"/>
+        <Shape name="t_3_15" shapeId="1" translation="5.625 0.03 1.125" scale="0.28 0.28 0.28" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="64" clipDistance="150" nodeId="66"/>
+      </TransformGroup>
+      <TransformGroup name="aiAreaStart" translation="-1.5 0 -1.5" nodeId="5000">
+        <TransformGroup name="aiAreaEnd" translation="3 0 3" nodeId="5001"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+</i3D>

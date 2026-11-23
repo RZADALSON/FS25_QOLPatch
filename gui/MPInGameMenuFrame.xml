@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="MPInGameMenuFrame">
+    <GuiElement profile="fs25_menuContainer">
+        <GuiElement profile="fs25_menuHeaderPanel">
+            <Text profile="mpFinanceHeaderText" text="" id="pageTitle"/>
+            <RoundCorner profile="mpFinanceInfoBoxBg"/>
+            <BoxLayout profile="mpFinanceInfoBox">
+                <Text profile="fs25_shopBalance" text="" id="infoText"/>
+            </BoxLayout>
+        </GuiElement>
+
+        <GuiElement profile="mpFinanceTableHeader">
+            <Text profile="mpFinanceHeaderCell" position="0px 0px"    size="380px 20px" text="" id="h1" textAlignment="left"/>
+            <Text profile="mpFinanceHeaderCell" position="380px 0px"  size="170px 20px" text="" id="h2"/>
+            <Text profile="mpFinanceHeaderCell" position="550px 0px"  size="150px 20px" text="" id="h3"/>
+            <Text profile="mpFinanceHeaderCell" position="700px 0px"  size="170px 20px" text="" id="h4"/>
+            <Text profile="mpFinanceHeaderCell" position="870px 0px"  size="170px 20px" text="" id="h5"/>
+            <Text profile="mpFinanceHeaderCell" position="1040px 0px" size="150px 20px" text="" id="h6"/>
+            <Text profile="mpFinanceHeaderCell" position="1190px 0px" size="170px 20px" text="" id="h7"/>
+            <Text profile="mpFinanceHeaderCell" position="1360px 0px" size="120px 20px" text="" id="h8"/>
+            <ThreePartBitmap profile="fs25_lineSeparatorBottom" position="0px -2dp" />
+        </GuiElement>
+
+        <SmoothList profile="mpFinanceList" id="financeTable" listSectionHeader="section">
+            <ListItem profile="mpFinanceListItem" name="rowTemplate">
+                <Text profile="mpFinanceRowCell" position="0px 0px"    size="380px 20px" name="c1" textAlignment="left"/>
+                <Text profile="mpFinanceRowCell" position="380px 0px"  size="170px 20px" name="c2"/>
+                <Text profile="mpFinanceRowCell" position="550px 0px"  size="150px 20px" name="c3"/>
+                <Text profile="mpFinanceRowCell" position="700px 0px"  size="170px 20px" name="c4"/>
+                <Text profile="mpFinanceRowCell" position="870px 0px"  size="170px 20px" name="c5"/>
+                <Text profile="mpFinanceRowCell" position="1040px 0px" size="150px 20px" name="c6"/>
+                <Text profile="mpFinanceRowCell" position="1190px 0px" size="170px 20px" name="c7"/>
+                <Text profile="mpFinanceRowCell" position="1360px 0px" size="120px 20px" name="c8"/>
+            </ListItem>
+            <ListItem profile="fs25_subCategoryListSectionHeader" name="section">
+                <Text profile="fs25_subCategoryListSectionHeaderTitle" name="title" />
+            </ListItem>
+        </SmoothList>
+
+        <ThreePartBitmap profile="mpFinanceSlider">
+            <Slider profile="fs25_listSlider" dataElementId="financeTable"/>
+        </ThreePartBitmap>
+
+        <Text profile="mpFinanceEmptyText" text="" id="emptyText"/>
+    </GuiElement>
+
+    <GUIProfiles>
+        <Profile name="mpFinanceTableHeader" extends="emptyPanel" with="anchorTopStretchingX">
+            <height value="40px"/>
+            <position value="0px 0px"/>
+        </Profile>
+
+        <Profile name="mpFinanceHeaderText" extends="fs25_textDefault">
+            <size value="700px 64px" />
+            <position value="0px 0px" />
+            <textSize value="31px"/>
+            <textBold value="false"/>
+            <textUpperCase value="true"/>
+        </Profile>
+
+        <Profile name="mpFinanceInfoBoxBg" extends="fs25_shopMoneyBoxBg">
+            <size value="700px 64px" />
+        </Profile>
+
+        <Profile name="mpFinanceInfoBox" extends="fs25_shopMoneyBox">
+            <size value="660px 64px" />
+        </Profile>
+
+
+        <Profile name="mpFinanceList" extends="emptyPanel" with="anchorStretchingYLeft pivotTopLeft">
+            <position value="0px -40px" />
+        </Profile>
+
+        <Profile name="mpFinanceListItem" extends="baseReference" with="anchorTopStretchingX alternating">
+            <height value="32px"/>
+            <imageColor value="$preset_fs25_colorGrey" />
+            <imageSelectedColor value="$preset_fs25_colorMainHighlight" />
+            <alternateBackgroundColor value="$preset_fs25_colorGreyDark_50" />
+        </Profile>
+
+        <Profile name="mpFinanceSlider" extends="fs25_listSliderBox" with="anchorTopRight">
+            <position value="28px -40px" />
+            <size value="6px 710px"/>
+        </Profile>
+
+        <Profile name="mpFinanceHeaderCell" extends="fs25_textDarkHighlight" with="anchorStretchingYLeft">
+            <textSize value="15px" />
+            <textBold value="true" />
+            <textUpperCase value="true" />
+            <textAlignment value="center" />
+        </Profile>
+
+        <Profile name="mpFinanceRowCell" extends="fs25_textDefault" with="anchorStretchingYLeft">
+            <textSize value="16px" />
+            <textBold value="false" />
+            <textAlignment value="center" />
+            <textVerticalAlignment value="middle" />
+            <textMaxWidth value="370px" />
+            <textLayoutMode value="clip" />
+        </Profile>
+
+        <Profile name="mpFinanceEmptyText" extends="fs25_textDefault" with="anchorMiddleCenter">
+            <size value="900px 60px" />
+            <textSize value="20px" />
+            <textAlignment value="center" />
+        </Profile>
+    </GUIProfiles>
+</GUI>

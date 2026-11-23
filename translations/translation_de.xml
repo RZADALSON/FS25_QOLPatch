@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="megaPatch_ibcDiesel_name" text="IBC Diesel 1000 l"/>
+        <text name="megaPatch_ibcDiesel_function" text="Mobiler Kraftstoffvorrat auf einer Palette. Bring ihn zu deinem Hof und betanke daneben abgestellte Maschinen. Der Preis folgt dem aktuellen Dieselpreis."/>
+
+        <text name="megaPatch_fuel_priceUp" text="Kraftstoffpreise steigen: Diesel %s/l (+%s%%). IBC 1000 l: %s"/>
+        <text name="megaPatch_fuel_priceDown" text="Kraftstoffpreise fallen: Diesel %s/l (-%s%%). IBC 1000 l: %s"/>
+        <text name="megaPatch_fuel_headerInfo" text="Diesel: %s/l (Markt %s%%)"/>
+
+        <text name="megaPatch_finance_pageTitle" text="Fahrzeugfinanzierung"/>
+        <text name="megaPatch_finance_empty" text="Keine geleasten oder finanzierten Fahrzeuge. Lease ein Fahrzeug im Shop und wandle es hier in eine Finanzierung um."/>
+        <text name="megaPatch_finance_sectionLeased" text="Geleast - finanzierbar (Leasingraten werden angerechnet)"/>
+        <text name="megaPatch_finance_sectionFinanced" text="Finanziert - Sicherungsübereignung bis zur Tilgung"/>
+        <text name="megaPatch_finance_colVehicle" text="Fahrzeug"/>
+        <text name="megaPatch_finance_colStatus" text="Status"/>
+        <text name="megaPatch_finance_colPrice" text="Preis"/>
+        <text name="megaPatch_finance_colLeasePaid" text="Bezahlt (Leasing)"/>
+        <text name="megaPatch_finance_colBalance" text="Restschuld"/>
+        <text name="megaPatch_finance_colInstallment" text="Monatlich"/>
+        <text name="megaPatch_finance_colArrears" text="Rückstand"/>
+        <text name="megaPatch_finance_colMonths" text="Monate"/>
+        <text name="megaPatch_finance_statusLeased" text="Geleast"/>
+        <text name="megaPatch_finance_statusOk" text="Läuft"/>
+        <text name="megaPatch_finance_statusLate" text="Überfällig: %s"/>
+        <text name="megaPatch_finance_btnFinance" text="Finanzieren (Details)"/>
+        <text name="megaPatch_finance_btnPayArrears" text="Rückstand zahlen"/>
+        <text name="megaPatch_finance_btnPayOff" text="Ablösen"/>
+        <text name="megaPatch_finance_btnTerm" text="Laufzeit: %s Monate"/>
+        <text name="megaPatch_finance_btnDown" text="Anzahlung: %s%%"/>
+        <text name="megaPatch_finance_sign" text="Vertrag unterschreiben"/>
+        <text name="megaPatch_finance_dialogTitle" text="Finanzierung: %s"/>
+        <text name="megaPatch_finance_qPrice" text="Fahrzeugpreis: %s"/>
+        <text name="megaPatch_finance_qCredit" text="Angerechnete Leasingraten: %s"/>
+        <text name="megaPatch_finance_qDown" text="Anzahlung (%s%%): %s"/>
+        <text name="megaPatch_finance_qPrincipal" text="Kreditbetrag: %s"/>
+        <text name="megaPatch_finance_qTerm" text="Laufzeit: %s Monate"/>
+        <text name="megaPatch_finance_qFee" text="Bankgebühr (sofort fällig): %s"/>
+        <text name="megaPatch_finance_qInstallment" text="MONATSRATE: %s"/>
+        <text name="megaPatch_finance_qUpfront" text="Fällig bei Unterschrift: %s"/>
+        <text name="megaPatch_finance_qTotal" text="Gesamtkosten inkl. Finanzierung: %s"/>
+        <text name="megaPatch_finance_qRules" text="Verpasste Rate = Mahngebühr und Strafzinsen. Nach %s verpassten Raten in Folge holt die Bank das Fahrzeug zurück. Nach der Tilgung gehört das Fahrzeug dauerhaft dir."/>
+        <text name="megaPatch_finance_qBuyout" text="Leasing fast bezahlt - einmalige Übernahme für: %s"/>
+        <text name="megaPatch_finance_qNoMoney" text="Nicht genug Geld für Anzahlung und Gebühr."/>
+        <text name="megaPatch_finance_confirmArrears" text="Rückstand von %s zahlen? Die Strafzinsen werden gestoppt."/>
+        <text name="megaPatch_finance_confirmPayOff" text="Restschuld %s + Vorfälligkeitsgebühr %s. Gesamt: %s. Danach gehört das Fahrzeug dauerhaft dir."/>
+        <text name="megaPatch_finance_notEnoughMoney" text="Nicht genug Geld (%s benötigt)."/>
+        <text name="megaPatch_finance_started" text="Vertrag unterschrieben: %s. Monatsrate %s. Das Fahrzeug gehört jetzt deinem Hof."/>
+        <text name="megaPatch_finance_boughtOut" text="%s für %s aus dem Leasing übernommen."/>
+        <text name="megaPatch_finance_completed" text="Finanzierung getilgt: %s gehört jetzt dauerhaft dir!"/>
+        <text name="megaPatch_finance_arrearsCleared" text="Rückstand für %s beglichen."/>
+        <text name="megaPatch_finance_missed" text="Rate für %s verpasst! Rückstand: %s. Die Bank holt das Fahrzeug nach %s weiteren verpassten Raten zurück."/>
+        <text name="megaPatch_finance_repossessed" text="Die Bank hat %s wegen verpasster Raten zurückgeholt. Erstatteter Versteigerungsüberschuss: %s"/>
+        <text name="megaPatch_finance_soldSettled" text="Finanziertes Fahrzeug %s verkauft - die Bank hat die Restschuld von %s einbehalten."/>
+
+        <text name="megaPatch_prod_pageTitle" text="Fabriken - Lohnverarbeitung"/>
+        <text name="megaPatch_prod_empty" text="Auf dieser Karte gibt es keine Fabriken."/>
+        <text name="megaPatch_prod_headerInfo" text="Gebühr auf Erzeugnisse - ~%s Jahre = Kaufpreis"/>
+        <text name="megaPatch_prod_sectionRented" text="Ohne Kauf genutzt"/>
+        <text name="megaPatch_prod_sectionAvailable" text="Ohne Kauf verfügbar"/>
+        <text name="megaPatch_prod_colName" text="Fabrik"/>
+        <text name="megaPatch_prod_colPrice" text="Kaufpreis"/>
+        <text name="megaPatch_prod_colRate" text="Satz"/>
+        <text name="megaPatch_prod_colFeesTotal" text="Bezahlt"/>
+        <text name="megaPatch_prod_colLastMonth" text="Gebühr/Monat (typisch)"/>
+        <text name="megaPatch_prod_colValue" text="Warenwert"/>
+        <text name="megaPatch_prod_colBreakEven" text="Amortisation (J)"/>
+        <text name="megaPatch_prod_statusRented" text="Gemietet"/>
+        <text name="megaPatch_prod_statusAvailable" text="Frei"/>
+        <text name="megaPatch_prod_rent" text="Ohne Kauf nutzen"/>
+        <text name="megaPatch_prod_buy" text="Fabrik kaufen"/>
+        <text name="megaPatch_prod_end" text="Vertrag beenden"/>
+        <text name="megaPatch_prod_offer1" text="Kaufpreis: %s"/>
+        <text name="megaPatch_prod_offer2" text="Oder ohne Kauf nutzen - zahle nur für die geleistete Arbeit:"/>
+        <text name="megaPatch_prod_offer3" text="Gebühr: %s%% des Marktwerts der erzeugten Waren"/>
+        <text name="megaPatch_prod_offer4" text="Typische Nutzung (20%% Kapazität): ca. %s / Monat"/>
+        <text name="megaPatch_prod_offer5" text="Volle Kapazität: ca. %s / Monat"/>
+        <text name="megaPatch_prod_offer6" text="Keine Fixkosten, kein Kaufpreis. Nach ca. %s Jahren typischer Nutzung übersteigen die Gebühren den Kaufpreis."/>
+        <text name="megaPatch_prod_offer7" text="Du kannst die Fabrik später kaufen oder den Vertrag im Menü (ESC) - Reiter Fabriken - beenden."/>
+        <text name="megaPatch_prod_confirmBuy" text="Fabrik für %s kaufen? Bisher gezahlte Gebühren (%s) werden nicht angerechnet."/>
+        <text name="megaPatch_prod_confirmEnd" text="Vertrag beenden? Die Fabrik geht an den Eigentümer zurück, Waren im Lager gehen verloren."/>
+        <text name="megaPatch_prod_started" text="%s wird ohne Kauf genutzt. Gebühr %s%% des Warenwerts."/>
+        <text name="megaPatch_prod_ended" text="Vertrag beendet: %s."/>
+        <text name="megaPatch_prod_bought" text="Fabrik %s für %s gekauft."/>
+        <text name="megaPatch_prod_cannotSell" text="Du kannst diese Fabrik nicht verkaufen - du nutzt sie, ohne sie zu besitzen."/>
+
+        <!-- langer Schlaf -->
+        <text name="megaPatch_sleep_bedTitle" text="Schlafen"/>
+        <text name="megaPatch_sleep_bedText" text="Normal bis zum Morgen schlafen oder einen langen Schlaf von mehreren Monaten (max. 1 Jahr). Vor einem langen Schlaf erhältst du eine Prognose: was ausgeht, was erntereif wird, was verdirbt, sowie wahrscheinliche Einnahmen und Verluste."/>
+        <text name="megaPatch_sleep_normal" text="Bis zum Morgen schlafen"/>
+        <text name="megaPatch_sleep_long" text="Langer Schlaf (Monate)"/>
+        <text name="megaPatch_sleep_plannerTitle" text="Langer Schlaf - Prognose"/>
+        <text name="megaPatch_sleep_months" text="Monate: %s  &gt;"/>
+        <text name="megaPatch_sleep_monthsBack" text="&lt;  weniger"/>
+        <text name="megaPatch_sleep_start" text="%s Monate schlafen"/>
+        <text name="megaPatch_sleep_hostOnly" text="Nur ein Einzelspieler oder der Host kann einen langen Schlaf starten (die Zeit ist gemeinsam)."/>
+        <text name="megaPatch_sleep_recommended" text="EMPFEHLUNG: Schlafen scheint sicher."/>
+        <text name="megaPatch_sleep_notRecommended" text="NICHT EMPFOHLEN - du könntest viel Geld verlieren! Prüfe die Warnungen unten."/>
+        <text name="megaPatch_sleep_gain" text="Wahrscheinliche Einnahmen: %s"/>
+        <text name="megaPatch_sleep_loss" text="Wahrscheinlicher Verlust: %s"/>
+        <text name="megaPatch_sleep_net" text="Ergebnis: %s"/>
+        <text name="megaPatch_sleep_gainParts" text="  Einnahmen: erntereife Feldfrüchte %s | Bargeld (Direktverkauf der Fabriken, Einkommen) %s | Waren im Fabriklager %s"/>
+        <text name="megaPatch_sleep_costParts" text="  Kosten: Fix- und Unterhaltskosten %s | Leasing %s | Finanzierungsraten %s | Fabrikgebühren %s"/>
+        <text name="megaPatch_sleep_lossParts" text="  Verluste: verdorbene/überreife Feldfrüchte %s | Wertverlust der Maschinen %s"/>
+        <text name="megaPatch_sleep_balance" text="Kontostand jetzt: %s   Niedrigster Kontostand während des Schlafs: %s"/>
+        <text name="megaPatch_sleep_more" text="... und %s weitere Warnungen"/>
+        <text name="megaPatch_sleep_nothing" text="Keine Warnungen."/>
+        <text name="megaPatch_sleep_aiActive" text="Stoppe zuerst alle Helfer (KI) - sie können während eines langen Schlafs nicht arbeiten."/>
+        <text name="megaPatch_sleep_lessThanMonth" text="&lt;1"/>
+        <text name="megaPatch_sleep_iFieldReady" text="Feld %s: %s ist beim Aufwachen erntereif (~%s)"/>
+        <text name="megaPatch_sleep_wFieldRot" text="Feld %s: %s wird in Monat %s des Schlafs überreif und verdirbt - Verlust ~%s"/>
+        <text name="megaPatch_sleep_wWeeds" text="Feld %s: Unkraut - der Ertrag wird geringer"/>
+        <text name="megaPatch_sleep_wFood" text="%s: Futter geht nach %s Tagen aus - Tiere verlieren Gesundheit und Produktion"/>
+        <text name="megaPatch_sleep_wWater" text="%s: Wasser geht nach %s Tagen aus"/>
+        <text name="megaPatch_sleep_wStraw" text="%s: Einstreu (Stroh) geht nach %s Tagen aus"/>
+        <text name="megaPatch_sleep_wInput" text="%s: %s geht nach %s Monaten aus - die Produktion stoppt"/>
+        <text name="megaPatch_sleep_wStorageFull" text="%s: Lager für %s nach %s Monaten voll - die Produktion stoppt"/>
+        <text name="megaPatch_sleep_wDamaged" text="%s Maschinen müssen repariert werden (Schaden >=50%%). Abgestellte Maschinen verschleißen in FS25 nicht."/>
+        <text name="megaPatch_sleep_wFinanceLate" text="%s: überfällige Finanzierungsrate - Gefahr der Rücknahme!"/>
+        <text name="megaPatch_sleep_wFinanceMoney" text="Nicht genug Geld für die Finanzierungsraten (%s Raten) - die Bank könnte Fahrzeuge zurückholen!"/>
+        <text name="megaPatch_sleep_wNegative" text="Der Kontostand fällt unter null (auf %s)!"/>
+        <text name="megaPatch_sleep_sleepingTitle" text="Langer Schlaf: %s Monate"/>
+        <text name="megaPatch_sleep_progress1" text="Schlafe... %s%%"/>
+        <text name="megaPatch_sleep_progress2" text="Verbleibend: %s Spieltage"/>
+        <text name="megaPatch_sleep_progress3" text="Kontostand: %s (Änderung: %s)"/>
+        <text name="megaPatch_sleep_progress4" text="Die Spielzeit ist stark beschleunigt - Feldfrüchte wachsen, Tiere und Fabriken arbeiten, Kosten und Raten werden abgebucht."/>
+        <text name="megaPatch_sleep_wakeUp" text="Aufwachen"/>
+        <text name="megaPatch_sleep_woke" text="Guten Morgen! Du hast %s Spieltage geschlafen. Kontoänderung: %s"/>
+        <text name="megaPatch_sleep_wokeEarly" text="Du bist nach %s Spieltagen früher aufgewacht. Kontoänderung: %s"/>
+
+        <!-- Bauen -->
+        <text name="megaPatch_undo_action" text="Rückgängig"/>
+        <text name="megaPatch_redo_action" text="Wiederholen"/>
+        <text name="megaPatch_undo_nothing" text="Nichts rückgängig zu machen"/>
+        <text name="megaPatch_redo_nothing" text="Nichts zu wiederholen"/>
+        <text name="megaPatch_undo_failed" text="Rückgängig/Wiederholen fehlgeschlagen: %s"/>
+        <text name="megaPatch_undo_placeUndone" text="Platzierung rückgängig: %s (Erstattung %s)"/>
+        <text name="megaPatch_undo_removeUndone" text="Wiederhergestellt: %s (berechnet %s)"/>
+        <text name="megaPatch_redo_place" text="Platzierung wiederholt: %s (%s)"/>
+        <text name="megaPatch_redo_remove" text="Verkauf wiederholt: %s (%s)"/>
+        <text name="megaPatch_parking_single" text="Parklinie"/>
+        <text name="megaPatch_parking_function" text="Aufgemalte Parkplatzmarkierungen für Asphalt/Beton. Drehen und nebeneinander platzieren, um einen Parkplatz anzulegen."/>
+        <text name="megaPatch_parking_bays1" text="Parkmarkierung - 1 Stellplatz"/>
+        <text name="megaPatch_parking_bays2" text="Parkmarkierung - 2 Stellplätze"/>
+        <text name="megaPatch_parking_bays3" text="Parkmarkierung - 3 Stellplätze"/>
+        <text name="megaPatch_parking_bays4" text="Parkmarkierung - 4 Stellplätze"/>
+        <text name="megaPatch_parking_bays5" text="Parkmarkierung - 5 Stellplätze"/>
+        <text name="megaPatch_parking_bays6" text="Parkmarkierung - 6 Stellplätze"/>
+        <text name="megaPatch_parking_bays7" text="Parkmarkierung - 7 Stellplätze"/>
+        <text name="megaPatch_parking_bays8" text="Parkmarkierung - 8 Stellplätze"/>
+        <text name="megaPatch_prod_sectionOwned" text="Deine Fabriken (Eigentum)"/>
+        <text name="megaPatch_prod_statusOwned" text="Eigentum"/>
+        <text name="megaPatch_prod_showOnMap" text="Auf Karte zeigen"/>
+        <text name="megaPatch_prod_mapMarked" text="Kartenziel: %s %s"/>
+        <text name="megaPatch_prod_mapCoords" text="%s - Position X/Z: %s, Entfernung %s"/>
+        <text name="input_MP_UNDO" text="Rückgängig (Bauen)"/>
+        <text name="input_MP_REDO" text="Wiederholen (Bauen)"/>
+        <text name="megaPatch_ui_vehicle" text="%s"/>
+        <text name="megaPatch_ui_price" text="Neupreis: %s"/>
+        <text name="megaPatch_ui_age" text="Alter: %s Monate"/>
+        <text name="megaPatch_ui_hours" text="Betriebsstunden: %s h"/>
+        <text name="megaPatch_ui_value" text="Marktwert: %s"/>
+        <text name="megaPatch_ui_estimated" text="(Schätzung)"/>
+        <text name="megaPatch_ui_months" text="%s Monate"/>
+        <text name="megaPatch_ui_termLabel" text="Finanzierungslaufzeit"/>
+        <text name="megaPatch_ui_downLabel" text="Anzahlung (%s)"/>
+        <text name="megaPatch_ui_apr" text="Zinsen: %s%% pro Jahr"/>
+        <text name="megaPatch_ui_sleepLabel" text="Wie viele Monate schlafen?"/>
+        <text name="megaPatch_ui_distance" text="Entfernung: %s"/>
+        <text name="megaPatch_ui_products" text="Produziert:"/>
+
+        <!-- Fahrbahnmarkierungen -->
+        <text name="megaPatch_paint_function" text="Fahrbahnmarkierung, passt sich dem Gelände an. Bild auf/Bild ab = Größe (1-10 m). Im Baumodus drehen und platzieren."/>
+        <text name="megaPatch_paint_P_white" text="Parksymbol P - weiß"/>
+        <text name="megaPatch_paint_P_yellow" text="Parksymbol P - gelb"/>
+        <text name="megaPatch_paint_P_red" text="Parksymbol P - rot"/>
+        <text name="megaPatch_paint_P_blue" text="Parksymbol P - blau"/>
+        <text name="megaPatch_paint_arrow_white" text="Pfeil geradeaus - weiß"/>
+        <text name="megaPatch_paint_arrow_yellow" text="Pfeil geradeaus - gelb"/>
+        <text name="megaPatch_paint_arrow_red" text="Pfeil geradeaus - rot"/>
+        <text name="megaPatch_paint_arrow_blue" text="Pfeil geradeaus - blau"/>
+        <text name="megaPatch_paint_arrowRight_white" text="Pfeil rechts - weiß"/>
+        <text name="megaPatch_paint_arrowRight_yellow" text="Pfeil rechts - gelb"/>
+        <text name="megaPatch_paint_arrowRight_red" text="Pfeil rechts - rot"/>
+        <text name="megaPatch_paint_arrowRight_blue" text="Pfeil rechts - blau"/>
+        <text name="megaPatch_paint_arrowLeft_white" text="Pfeil links - weiß"/>
+        <text name="megaPatch_paint_arrowLeft_yellow" text="Pfeil links - gelb"/>
+        <text name="megaPatch_paint_arrowLeft_red" text="Pfeil links - rot"/>
+        <text name="megaPatch_paint_arrowLeft_blue" text="Pfeil links - blau"/>
+        <text name="megaPatch_paint_tractor_white" text="Traktorsymbol - weiß"/>
+        <text name="megaPatch_paint_tractor_yellow" text="Traktorsymbol - gelb"/>
+        <text name="megaPatch_paint_tractor_red" text="Traktorsymbol - rot"/>
+        <text name="megaPatch_paint_tractor_blue" text="Traktorsymbol - blau"/>
+        <text name="megaPatch_paint_stop_white" text="STOP-Markierung - weiß"/>
+        <text name="megaPatch_paint_stop_yellow" text="STOP-Markierung - gelb"/>
+        <text name="megaPatch_paint_stop_red" text="STOP-Markierung - rot"/>
+        <text name="megaPatch_paint_stop_blue" text="STOP-Markierung - blau"/>
+        <text name="megaPatch_paint_zebra_white" text="Zebrastreifen - weiß"/>
+        <text name="megaPatch_paint_zebra_yellow" text="Zebrastreifen - gelb"/>
+        <text name="megaPatch_paint_zebra_red" text="Zebrastreifen - rot"/>
+        <text name="megaPatch_paint_zebra_blue" text="Zebrastreifen - blau"/>
+        <text name="megaPatch_paint_helipad_white" text="Hubschrauberlandeplatz H - weiß"/>
+        <text name="megaPatch_paint_helipad_yellow" text="Hubschrauberlandeplatz H - gelb"/>
+        <text name="megaPatch_paint_helipad_red" text="Hubschrauberlandeplatz H - rot"/>
+        <text name="megaPatch_paint_helipad_blue" text="Hubschrauberlandeplatz H - blau"/>
+        <text name="megaPatch_paint_noParking_white" text="Sperrfläche (Parkverbot) - weiß"/>
+        <text name="megaPatch_paint_noParking_yellow" text="Sperrfläche (Parkverbot) - gelb"/>
+        <text name="megaPatch_paint_noParking_red" text="Sperrfläche (Parkverbot) - rot"/>
+        <text name="megaPatch_paint_noParking_blue" text="Sperrfläche (Parkverbot) - blau"/>
+        <text name="megaPatch_paint_tab" text="Farben &amp; Markierungen"/>
+        <text name="megaPatch_paint_size" text="Markierungsgröße: %s m"/>
+        <text name="megaPatch_paint_sizeAction" text="Markierungsgröße (%s m)"/>
+        <text name="input_MP_PAINT_BIGGER" text="Markierung größer (Bauen)"/>
+        <text name="input_MP_PAINT_SMALLER" text="Markierung kleiner (Bauen)"/>
+        <text name="megaPatch_sleep_wakeHint" text="Früher aufwachen: zum Bett gehen und R drücken"/>
+
+        <!-- pomocnik zlecen -->
+        <text name="megaPatch_helper_button" text="Helfer schicken"/>
+        <text name="megaPatch_helper_title" text="Helfer schicken: %s"/>
+        <text name="megaPatch_helper_send" text="Helfer schicken"/>
+        <text name="megaPatch_helper_reward" text="Belohnung: %s   Gerätemiete: %s"/>
+        <text name="megaPatch_helper_vehicles" text="Geräte vom Auftraggeber: %s"/>
+        <text name="megaPatch_helper_eta" text="Entfernung: %s - Anfahrt ca. %s"/>
+        <text name="megaPatch_helper_etaLater" text="Die Anfahrtszeit wird berechnet, sobald die Geräte bereitstehen."/>
+        <text name="megaPatch_helper_how" text="Der Auftrag wird mit geliehenen Geräten angenommen. Der Helfer hängt die Geräte selbst an, fährt zum Feld und beginnt sofort in normalem Tempo zu arbeiten."/>
+        <text name="megaPatch_helper_wage" text="Der Helfer erhält den normalen Stundenlohn wie im Spiel."/>
+        <text name="megaPatch_helper_noteHarvest" text="Der Drescher hält mit vollem Korntank an - Abtanken und Abliefern übernimmst du."/>
+        <text name="megaPatch_helper_noteMaterial" text="Fehlendes Material kauft der Helfer zum Helferpreis (wie im Spiel)."/>
+        <text name="megaPatch_helper_noteTakeOver" text="Wenn du während der Anfahrt einsteigst oder die Geräte bewegst, fährt der Helfer nicht los."/>
+        <text name="megaPatch_helper_left" text="Der Helfer ist auf dem Weg zu Feld %s (%s) - Anfahrt ca. %s."/>
+        <text name="megaPatch_helper_arrived" text="Der Helfer ist an Feld %s angekommen und bereitet die Geräte vor."/>
+        <text name="megaPatch_helper_started" text="Der Helfer arbeitet auf Feld %s."/>
+        <text name="megaPatch_helper_takenOver" text="Du hast die Geräte übernommen - der Helfer fährt nicht zum Auftrag."/>
+        <text name="megaPatch_helper_noVehicles" text="Der Auftrag wurde ohne Geräte angenommen - der Helfer hat nichts zum Fahren."/>
+        <text name="megaPatch_helper_noTractor" text="Unter den Auftragsgeräten ist kein Fahrzeug, das der Helfer fahren kann."/>
+        <text name="megaPatch_helper_waitLimit" text="Alle Helfer sind beschäftigt - dieser beginnt, sobald einer frei ist."/>
+        <text name="megaPatch_helper_aiFailed" text="Der Helfer konnte auf Feld %s nicht anfangen - prüfe die Geräte vor Ort."/>
+        <text name="megaPatch_helper_attachFailed" text="Einige Geräte konnten nicht angehängt werden (%s) - sie stehen noch am Shop."/>
+        <text name="megaPatch_helper_bought" text="Der Helfer hat Material für %s gekauft."/>
+        <text name="megaPatch_helper_failed" text="Der Auftragshelfer hat abgebrochen (%s)."/>
+        <text name="megaPatch_helper_startFailed" text="Der Auftrag konnte nicht angenommen werden."/>
+        <text name="megaPatch_helper_cancelled" text="Das Schicken des Helfers wurde abgebrochen."/>
+        <text name="megaPatch_helper_noPermission" text="Du darfst keine Helfer einstellen."/>
+        <text name="megaPatch_helper_hudTravel" text="Helfer fährt zu Feld %s: %s"/>
+        <text name="megaPatch_helper_hudArrived" text="Helfer an Feld %s - hängt Geräte an"/>
+        <text name="megaPatch_helper_hudWaiting" text="Helfer wartet auf die Auftragsgeräte..."/>
+    </texts>
+</l10n>

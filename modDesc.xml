@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="116">
+    <author>rzada</author>
+    <version>1.8.0.0</version>
+    <title>
+        <en>QOL Patch</en>
+        <de>QOL Patch</de>
+        <pl>QOL Patch</pl>
+    </title>
+    <description>
+        <en><![CDATA[
+Quality-of-life patch with several features in one mod, safe for existing savegames:
+
+1. IBC diesel 1000 l - fuel container on a pallet (shop: IBC / Diesel tanks). Transport it to your farm and refuel machines parked next to it. Price = container + 1000 l at the current diesel price.
+   Dynamic fuel market: diesel/DEF/methane prices follow a market model (mean reversion, seasons, rare shocks) on top of the base game price and your economic difficulty.
+
+2. Vehicle financing - menu (ESC) > Vehicle financing. Convert a leased vehicle into an annuity loan (6-84 months, 0-60% down payment, sliders); everything already paid for the lease is credited. Missed payments cause late fees and penalty interest, after 3 missed payments the bank repossesses the vehicle. Once paid off the vehicle is permanently yours.
+
+3. Factories without buying - at an unowned factory choose "Use without buying" (or menu > Factories). No purchase price and no fixed costs, you only pay a fee on the market value of what the factory processed. Calibrated so that after ~10 years of typical use buying would have been cheaper. The menu also lists your owned factories and can mark any factory on the map.
+
+4. Long sleep - in bed: "Long sleep (months)", 1-12 months, with a forecast (shortages, harvest-ready/rotting crops, probable earnings and losses, recommendation).
+
+5. Construction - free terrain painting and terraforming; Ctrl+Z / Ctrl+Y undo/redo placing or selling objects with 100% refund; new "Paint & markings" tab: parking stripes (line + 1-8 spaces) and road markings (P, arrows, tractor, STOP, zebra crossing, helipad, no-parking hatch) in 4 colours. Markings follow the terrain, PgUp/PgDn changes their size (1-10 m).
+
+6. Contract helper - in the Contracts menu choose "Send helper": the contract is accepted with borrowed equipment, the helper takes it away, arrives at the field after a travel time based on distance, attaches everything and starts working at normal speed.
+
+Multiplayer: everything runs on the server; every member of your farm has full access (financing, factories, undo, long sleep, helper).
+        ]]></en>
+        <de><![CDATA[
+Komfort-Patch mit mehreren Funktionen in einem Mod, sicher für bestehende Spielstände:
+
+1. IBC Diesel 1000 l - Kraftstoffbehälter auf einer Palette (Shop: IBC / Dieseltanks). Bring ihn zu deinem Hof und betanke daneben abgestellte Maschinen. Preis = Behälter + 1000 l zum aktuellen Dieselpreis.
+   Dynamischer Kraftstoffmarkt: Diesel-/AdBlue-/Methanpreise folgen einem Marktmodell (Rückkehr zum Mittelwert, Jahreszeiten, seltene Krisen) auf Basis des Spielpreises und deines wirtschaftlichen Schwierigkeitsgrads.
+
+2. Fahrzeugfinanzierung - Menü (ESC) > Fahrzeugfinanzierung. Wandle ein geleastes Fahrzeug in einen Ratenkredit um (6-84 Monate, 0-60% Anzahlung, Schieberegler); alles, was du bereits für das Leasing gezahlt hast, wird angerechnet. Verpasste Raten verursachen Mahngebühren und Strafzinsen, nach 3 verpassten Raten holt die Bank das Fahrzeug zurück. Nach der Tilgung gehört das Fahrzeug dauerhaft dir.
+
+3. Fabriken ohne Kauf - wähle an einer nicht gekauften Fabrik "Ohne Kauf nutzen" (oder Menü > Fabriken). Kein Kaufpreis und keine Fixkosten, du zahlst nur eine Gebühr auf den Marktwert der verarbeiteten Waren. So abgestimmt, dass sich der Kauf nach ca. 10 Jahren typischer Nutzung gelohnt hätte. Das Menü zeigt auch deine eigenen Fabriken und kann jede Fabrik auf der Karte markieren.
+
+4. Langer Schlaf - im Bett: "Langer Schlaf (Monate)", 1-12 Monate, mit Prognose (Engpässe, erntereife/verderbende Feldfrüchte, wahrscheinliche Einnahmen und Verluste, Empfehlung).
+
+5. Bauen - kostenloses Bemalen und Formen des Geländes; Strg+Z / Strg+Y macht das Platzieren oder Verkaufen von Objekten mit 100% Erstattung rückgängig bzw. wiederholt es; neuer Reiter "Farben & Markierungen": Parkmarkierungen (Linie + 1-8 Stellplätze) und Fahrbahnmarkierungen (P, Pfeile, Traktor, STOP, Zebrastreifen, Hubschrauberlandeplatz, Sperrfläche) in 4 Farben. Markierungen passen sich dem Gelände an, Bild auf/Bild ab ändert die Größe (1-10 m).
+
+6. Auftragshelfer - im Menü Aufträge "Helfer schicken" wählen: der Auftrag wird mit geliehenen Geräten angenommen, der Helfer nimmt sie mit, kommt nach einer entfernungsabhängigen Anfahrt am Feld an, hängt alles an und arbeitet in normalem Tempo.
+
+Mehrspieler: alles läuft auf dem Server; jedes Mitglied deines Hofes hat vollen Zugriff (Finanzierung, Fabriken, Rückgängig, langer Schlaf, Helfer).
+        ]]></de>
+        <pl><![CDATA[
+Patch poprawiający wygodę gry - kilka modów w jednym, bezpieczny dla istniejących zapisów:
+
+1. IBC olej napędowy 1000 l - zbiornik paliwa na palecie (sklep: IBC / Zbiorniki diesla). Przywieź go na farmę i tankuj maszyny ustawione obok. Cena = pojemnik + 1000 l po aktualnej cenie diesla.
+   Dynamiczny rynek paliw: ceny diesla/AdBlue/metanu zmieniają się (powrót do średniej, sezony, rzadkie kryzysy) względem ceny bazowej gry i ustawionej trudności ekonomicznej.
+
+2. Finansowanie pojazdów - menu (ESC) > Finansowanie pojazdów. Pojazd z leasingu zamieniasz na kredyt ratalny (6-84 miesiące, wpłata 0-60%, suwaki); wszystko, co już zapłaciłeś za leasing, jest odliczane. Brak środków na ratę = opłata za zwłokę i odsetki karne, po 3 niezapłaconych ratach bank zabiera pojazd. Po spłacie pojazd jest Twój na stałe.
+
+3. Fabryki bez kupowania - przy niekupionej fabryce wybierz "Korzystaj bez kupowania" (albo menu > Fabryki). Bez ceny zakupu i kosztów stałych - płacisz tylko opłatę od wartości przerobionych towarów. Stawka dobrana tak, że po ok. 10 latach typowego używania zakup byłby tańszy. Menu pokazuje też Twoje fabryki i zaznacza dowolną fabrykę na mapie.
+
+4. Długi sen - w łóżku: "Długi sen (miesiące)", 1-12 miesięcy, z prognozą (co się skończy, co dojrzeje/zgnije, prawdopodobny zarobek i strata, rekomendacja).
+
+5. Budowa - darmowe malowanie terenu i terraforming; Ctrl+Z / Ctrl+Y cofa i ponawia postawienie lub sprzedaż obiektu ze 100% zwrotem pieniędzy; nowa zakładka "Farby i oznakowanie": pasy parkingowe (linia + 1-8 miejsc) i oznaczenia drogowe (P, strzałki, traktor, STOP, przejście dla pieszych, lądowisko, pole wyłączone) w 4 kolorach. Oznaczenia dopasowują się do terenu, PgUp/PgDn zmienia rozmiar (1-10 m).
+
+6. Pomocnik do zleceń - w menu Zlecenia wybierz "Wyślij pomocnika": zlecenie zostaje przyjęte z wypożyczonymi maszynami, pomocnik je zabiera, po czasie dojazdu zależnym od odległości pojawia się na polu, sam wszystko podpina i pracuje w normalnym tempie.
+
+Multiplayer: wszystko działa na serwerze; każdy członek Twojej farmy ma pełny dostęp (finansowanie, fabryki, cofanie, długi sen, pomocnik).
+        ]]></pl>
+    </description>
+    <iconFilename>icon_megaPatch.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <l10n filenamePrefix="translations/translation"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/MegaPatch.lua"/>
+    </extraSourceFiles>
+
+    <actions>
+        <action name="MP_UNDO" category="ONFOOT" axisType="HALF"/>
+        <action name="MP_REDO" category="ONFOOT" axisType="HALF"/>
+        <action name="MP_PAINT_BIGGER" category="ONFOOT" axisType="HALF"/>
+        <action name="MP_PAINT_SMALLER" category="ONFOOT" axisType="HALF"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="MP_UNDO">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_z"/>
+        </actionBinding>
+        <actionBinding action="MP_REDO">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_y"/>
+        </actionBinding>
+        <actionBinding action="MP_PAINT_BIGGER">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_pageup"/>
+        </actionBinding>
+        <actionBinding action="MP_PAINT_SMALLER">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_pagedown"/>
+        </actionBinding>
+    </inputBinding>
+
+    <storeItems>
+        <storeItem xmlFilename="objects/ibcDiesel/ibcDiesel.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines0.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines1.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines2.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines3.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines4.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines5.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines6.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines7.xml"/>
+        <storeItem xmlFilename="objects/parkingLines/parkingLines8.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_parkingP_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_parkingP_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_parkingP_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_parkingP_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrow_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrow_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrow_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrow_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowRight_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowRight_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowRight_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowRight_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowLeft_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowLeft_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowLeft_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_arrowLeft_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_tractor_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_tractor_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_tractor_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_tractor_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_stop_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_stop_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_stop_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_stop_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_zebra_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_zebra_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_zebra_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_zebra_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_helipad_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_helipad_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_helipad_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_helipad_blue.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_noParking_white.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_noParking_yellow.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_noParking_red.xml"/>
+        <storeItem xmlFilename="objects/paints/paint_noParking_blue.xml"/>
+    </storeItems>
+</modDesc>
